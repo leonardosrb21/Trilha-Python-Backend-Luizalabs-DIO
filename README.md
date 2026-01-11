@@ -1,70 +1,85 @@
+# Resolvendo Códigos em Python com o Github Copilot
 
-# 🏦 Sistema Bancário Simples em Python
+Olá!! Aqui veremos algumas resoluções de códigos em python utilizando o Github Copilot.
 
-Este é um sistema bancário desenvolvido em Python com interface via linha de comando (CLI). O projeto simula operações essenciais de um banco, como depósitos, saques, emissão de extratos e gerenciamento de usuários e contas correntes.
+### Atenção ⚠️ 
 
-## 🚀 Funcionalidades
+Não tem acesso ao Github Copilot?! Não tem problema!! 
+Que tal utilizar o [ChatGPT](https://chat.openai.com/) como seu copiloto de estudos ??
 
-O sistema está dividido em módulos lógicos para facilitar a manutenção e leitura:
+## 1 - Concatenando Dados 🐾
 
-* **Operações Financeiras:**
-* `Depositar`: Adiciona valores ao saldo da conta.
-* `Sacar`: Permite retiradas respeitando o saldo disponível, o limite por saque e a quantidade máxima de saques diários.
-* `Extrato`: Exibe todas as movimentações e o saldo atual formatado.
+Descrição:
+Vamos receber dois dados diferentes do usuário e concatena-los em uma única string?! 
+
+O que aprenderemos?
+
+* Manipulação de Strings (string)
+* Concatenação
+* Entrada de dados
+* Utilização eficiente do Github Copilot
+
+<br>
+
+## 2 - Repetindo Textos ✏️
+
+Descrição:
+Agora vamos solicitar uma string e um número inteiro como entrada. Depois teremos que retornar a string repetida o número de vezes informado. 
+
+O que aprenderemos?
+
+* Manipulação de Strings (string)
+* Números Inteiros (int)
+* Múltiplas repetições
+* Entrada de dados
+* Aproveitar as sugestões do Github Copilot
+
+<br>
+
+## 3 - Operações Matemáticas Simples 📐
+
+Descrição:
+Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
+
+O que aprenderemos?
+
+* Operações Matemáticas Básicas
+* Entrada de dados
+* Utilização eficiente do Github Copilot
+
+<br>
+
+## 4 - Verificando Números Pares e Ímpares 🧮
+
+Descrição: Como entrada, receba um número inteiro e verifique se ele é par ou ímpar. 
+Uma dica é: Utilize condicionais para realizar a verificação e, se possível, faça uso do Github Copilot(ou outra IA) para otimizar a estrutura do código.
+
+O que aprenderemos?
+* Utilização de condicionais em Python (if, else) para realizar verificações.
+* Introdução ao conceito de operador de módulo (%) para verificar se um número é par ou ímpar.
+* Exploração do uso de uma ferramenta de IA, como o Github Copilot, para otimizar a estrutura do código.
 
 
-* **Gestão de Clientes:**
-* `Novo Usuário`: Cadastra clientes com nome, data de nascimento, CPF e endereço.
-* `Nova Conta`: Vincula uma conta corrente (agência e número) a um usuário cadastrado via CPF.
-* `Listar Contas`: Exibe todas as contas criadas no sistema.
+<br>
 
+## 5 - Calculando Média de Notas 📚
 
+Descrição: Agora vamos calcular a média de três notas fornecidas na entrada do usuário. 
+Uma dica é: Utilize operadores aritméticos para realizar o cálculo da média.
 
----
+O que aprenderemos?
+* Uso de variáveis para armazenar dados fornecidos pelo usuário.
+* Aplicação de operadores aritméticos (+, /) para calcular a média de um conjunto de valores.
+* Prática na solicitação e manipulação de entrada do usuário.
 
-## 🛠️ Tecnologias Utilizadas
+<br>
 
-* **Linguagem:** Python 3.x
-* **Bibliotecas:** `textwrap` (para formatação de menus e textos).
+## 6 - Verificando Palíndromos 🔄
 
----
+Descrição: Vamos testar se uma palavra é um palíndromo?! 
+Uma dica é: Utilize conceitos de manipulação de strings para inverter a palavra e comparar com a original.
 
-## 📋 Regras de Negócio
-
-Para garantir o funcionamento correto, o sistema segue algumas diretrizes:
-
-| Regra | Descrição |
-| --- | --- |
-| **Limite de Saques** | O usuário pode realizar no máximo 3 saques por sessão/dia. |
-| **Valor Máximo** | Cada saque individual não pode exceder R$ 500,00. |
-| **Identificação** | Não é permitido cadastrar dois usuários com o mesmo CPF. |
-| **Vínculo** | Uma conta só pode ser criada se o CPF informado pertencer a um usuário já cadastrado. |
-
----
-
-## ⚙️ Como Executar
-
-1. Certifique-se de ter o **Python 3** instalado em sua máquina.
-2. Clone este repositório ou copie o arquivo `.py`.
-3. Abra o terminal na pasta do arquivo e execute:
-```bash
-python nome_do_arquivo.py
-
-```
-
-
-
----
-
-## 🧩 Estrutura do Código
-
-O código utiliza conceitos avançados de funções em Python:
-
-* **Argumentos Keyword-Only:** Utilizados na função de saque para maior segurança.
-* **Argumentos Positional-Only:** Utilizados na função de depósito e extrato.
-* **Tratamento de Exceções:** Proteção contra entradas de dados inválidas (letras em campos numéricos).
-
----
-
-> **Nota:** Este projeto foi desenvolvido para fins didáticos, explorando estruturas de dados como listas e dicionários.
-
+O que aprenderemos?
+* Manipulação de strings em Python, especialmente invertendo uma string.
+* Compreensão de como comparar a string original com sua versão invertida para determinar se é um palíndromo.
+* Introdução ao conceito de palíndromos e sua aplicação em problemas de programação.
